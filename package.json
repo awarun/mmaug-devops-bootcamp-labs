@@ -1,0 +1,22 @@
+{
+  "name": "mmaug-devops-bootcamp-labs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hands-on labs for the MMAUG 30-Day AI and DevOps Fundamentals Bootcamp",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "lint": "eslint .",
+    "test": "node --test",
+    "build": "node scripts/build.mjs",
+    "check": "npm run lint && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0"
+  }
+}
