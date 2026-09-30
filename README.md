@@ -5,6 +5,8 @@
 
 Public, beginner-friendly labs for Balogun James's sessions in the **MMAUG 30-Day AI and DevOps Fundamentals Bootcamp**.
 
+**[View the live sample application](https://balop3e.github.io/mmaug-devops-bootcamp-labs/)**
+
 | Date and time (Malta) | Session | Lab |
 | --- | --- | --- |
 | 5 October 2026, 18:00–20:00 | Fundamentals of DevOps CI/CD Pipelines | [Open the primary lab](labs/01-cicd-pipelines/README.md) |
