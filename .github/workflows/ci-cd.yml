@@ -46,7 +46,7 @@ jobs:
 
   deploy:
     name: Deploy to GitHub Pages
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && vars.ENABLE_PAGES == 'true'
+    if: (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main' && vars.ENABLE_PAGES == 'true'
     needs: validate-and-build
     runs-on: ubuntu-latest
     permissions:
