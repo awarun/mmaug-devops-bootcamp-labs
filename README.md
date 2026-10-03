@@ -9,7 +9,7 @@ Public, beginner-friendly labs for Balogun James's sessions in the **MMAUG 30-Da
 
 | Date and time (Malta) | Session | Lab |
 | --- | --- | --- |
-| 5 October 2026, 18:00–20:00 | Fundamentals of DevOps CI/CD Pipelines | [Live browser lab](LIVE_LAB.md) · [Full follow-on lab](labs/01-cicd-pipelines/README.md) |
+| 5 October 2026, 18:00–20:00 | Fundamentals of DevOps CI/CD Pipelines | [Live browser lab](LIVE_LAB.md) · [Full follow-on lab](labs/01-cicd-pipelines/README.md) · [Facilitator runbook](FACILITATOR_RUNBOOK.md) |
 | 13 October 2026, 18:00–20:00 | DevOps Tooling | [Open the follow-on lab](labs/02-devops-tooling/README.md) |
 
 The labs use a small interactive pipeline dashboard as the workload. Learners validate it locally, watch GitHub Actions build it, deploy it to GitHub Pages, and then package and observe it as a container.
@@ -65,6 +65,7 @@ Open <http://localhost:3000>. Press `Ctrl+C` in the terminal to stop the server.
 .
 ├── .github/workflows/ci-cd.yml   # Automated validation and gated Pages deployment
 ├── LIVE_LAB.md                    # 35-minute browser-only session exercise
+├── FACILITATOR_RUNBOOK.md         # Presenter script, timings and recovery guidance
 ├── labs/
 │   ├── 01-cicd-pipelines/        # Day 5 guided lab
 │   └── 02-devops-tooling/        # Day 13 guided lab
