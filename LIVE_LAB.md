@@ -44,7 +44,7 @@ The workflow file already describes the repeatable checks. You will trigger it b
 5. Replace it with:
 
    ```text
-   I completed my first CI pipeline.
+   I [insert-your-name] completed my first CI pipeline.
    ```
 
 6. Select **Commit changes**.
