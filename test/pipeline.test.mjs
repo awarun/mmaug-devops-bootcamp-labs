@@ -4,8 +4,8 @@ import { calculatePipelineProgress, pipelineState } from "../public/js/pipeline.
 
 test("calculates progress for each completed stage", () => {
   assert.equal(calculatePipelineProgress(0), 0);
-  assert.equal(calculatePipelineProgress(2), 51);
-  assert.equal(calculatePipelineProgress(4), 200);
+  assert.equal(calculatePipelineProgress(2), 50);
+  assert.equal(calculatePipelineProgress(4), 100);
 });
 
 test("keeps progress inside the 0 to 100 range", () => {
